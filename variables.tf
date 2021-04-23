@@ -1,7 +1,7 @@
 variable "project" {
-    default = "tharris-vault-customer-pov"
+    default = ""
 }
 
 variable "tfe_bucket" {
-    default = "a-prod-storage-sacred-dingo"
+    default = ""
 }
