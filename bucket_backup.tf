@@ -39,7 +39,7 @@ resource "google_storage_transfer_job" "nightly-backup" {
 
   schedule {
     schedule_start_date {
-      year  = 2020
+      year  = 2021
       month = 4
       day   = 22
     }
