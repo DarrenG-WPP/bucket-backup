@@ -8,7 +8,7 @@ data "google_storage_transfer_project_service_account" "default" {
 }
 
 resource "google_storage_bucket" "tfe-backup-bucket" {
-  name          = "tfe-active-backup-test"
+  name          = "tfe-active-dev-export-backup"
   storage_class = "NEARLINE"
   project       = var.project
 }
