@@ -3,5 +3,5 @@ variable "project" {
 }
 
 variable "tfe_bucket" {
-    default = ""
+    default = "tfe-active-dev-storage-thankful-civet"
 }
